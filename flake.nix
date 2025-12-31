@@ -1,5 +1,6 @@
 {
-  description = "My personal NUR repository";
+  description = "kawarimidoll's NUR repository";
+
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   outputs = { self, nixpkgs }:
     let
@@ -10,5 +11,20 @@
         pkgs = import nixpkgs { inherit system; };
       });
       packages = forAllSystems (system: nixpkgs.lib.filterAttrs (_: v: nixpkgs.lib.isDerivation v) self.legacyPackages.${system});
+
+      overlays.default = final: prev: import ./. { pkgs = final; };
+
+      apps = forAllSystems (
+        system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+        in
+        {
+          nvfetcher = {
+            type = "app";
+            program = "${pkgs.nvfetcher}/bin/nvfetcher";
+          };
+        }
+      );
     };
 }
