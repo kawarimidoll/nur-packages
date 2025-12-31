@@ -1,0 +1,22 @@
+{
+    "ghost": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "ghost",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "skanehira",
+            "repo": "ghost",
+            "rev": "v0.3.0",
+            "sha256": "sha256-PhHC1FOcUBS1ZK97hjJ7zJOsJql2JkSJHkZNZqRRAVc=",
+            "type": "github"
+        },
+        "version": "v0.3.0"
+    }
+}
