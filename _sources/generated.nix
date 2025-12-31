@@ -12,4 +12,15 @@
       sha256 = "sha256-PhHC1FOcUBS1ZK97hjJ7zJOsJql2JkSJHkZNZqRRAVc=";
     };
   };
+  treesitter-ls = {
+    pname = "treesitter-ls";
+    version = "v0.0.2";
+    src = fetchFromGitHub {
+      owner = "atusy";
+      repo = "treesitter-ls";
+      rev = "v0.0.2";
+      fetchSubmodules = false;
+      sha256 = "sha256-9c7ttOX7SHvGbkSjPy0Yt9PB/8fOuu//ElO0fn+Snf0=";
+    };
+  };
 }

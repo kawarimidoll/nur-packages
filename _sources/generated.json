@@ -15,8 +15,30 @@
             "repo": "ghost",
             "rev": "v0.3.0",
             "sha256": "sha256-PhHC1FOcUBS1ZK97hjJ7zJOsJql2JkSJHkZNZqRRAVc=",
+            "sparseCheckout": [],
             "type": "github"
         },
         "version": "v0.3.0"
+    },
+    "treesitter-ls": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "treesitter-ls",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "atusy",
+            "repo": "treesitter-ls",
+            "rev": "v0.0.2",
+            "sha256": "sha256-9c7ttOX7SHvGbkSjPy0Yt9PB/8fOuu//ElO0fn+Snf0=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v0.0.2"
     }
 }

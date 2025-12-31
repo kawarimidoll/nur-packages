@@ -19,4 +19,5 @@ in
   overlays = import ./overlays; # nixpkgs overlays
 
   ghost = pkgs.callPackage ./pkgs/ghost { inherit sources; };
+  treesitter-ls = pkgs.callPackage ./pkgs/treesitter-ls { inherit sources; };
 }

@@ -1,3 +1,7 @@
 [ghost]
 fetch.github = "skanehira/ghost"
 src.manual = "v0.3.0"
+
+[treesitter-ls]
+fetch.github = "atusy/treesitter-ls"
+src.manual = "v0.0.2"
