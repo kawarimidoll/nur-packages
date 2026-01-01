@@ -1,0 +1,37 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["every weekend"],
+    "automerge": true
+  },
+  "nix": {
+    "enabled": true
+  },
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["nvfetcher\\.toml$"],
+      "matchStrings": [
+        "\\[(?<depName>[^\\]]+)\\][\\s\\S]*?fetch\\.github\\s*=\\s*\"(?<packageName>[^\"]+)\"[\\s\\S]*?src\\.manual\\s*=\\s*\"(?<currentValue>[^\"]+)\""
+      ],
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "semver"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchFileNames": ["nvfetcher.toml"],
+      "postUpgradeTasks": {
+        "commands": [
+          "nix run .#nvfetcher",
+          "nix run .#sync-readme"
+        ],
+        "fileFilters": ["_sources/**", "README.md"],
+        "executionMode": "branch"
+      },
+      "automerge": true
+    }
+  ]
+}
