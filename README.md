@@ -10,7 +10,7 @@
 | Package | Version | Description |
 |---------|---------|-------------|
 | ghost | v0.3.0 | Simple background process manager for Unix systems |
-| treesitter-ls | v0.0.2 | A fast and flexible LSP server leveraging Tree-sitter |
+| treesitter-ls | v0.0.3 | A fast and flexible LSP server leveraging Tree-sitter |
 <!-- packages-table-end -->
 
 ## Usage

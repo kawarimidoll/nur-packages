@@ -14,13 +14,13 @@
   };
   treesitter-ls = {
     pname = "treesitter-ls";
-    version = "v0.0.2";
+    version = "v0.0.3";
     src = fetchFromGitHub {
       owner = "atusy";
       repo = "treesitter-ls";
-      rev = "v0.0.2";
+      rev = "v0.0.3";
       fetchSubmodules = false;
-      sha256 = "sha256-9c7ttOX7SHvGbkSjPy0Yt9PB/8fOuu//ElO0fn+Snf0=";
+      sha256 = "sha256-t0v9avfGxsl6tFau19dqEDwdG9cP9YI4aTvh4RgFrmU=";
     };
   };
 }

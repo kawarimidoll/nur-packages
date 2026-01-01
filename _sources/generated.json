@@ -34,11 +34,11 @@
             "name": null,
             "owner": "atusy",
             "repo": "treesitter-ls",
-            "rev": "v0.0.2",
-            "sha256": "sha256-9c7ttOX7SHvGbkSjPy0Yt9PB/8fOuu//ElO0fn+Snf0=",
+            "rev": "v0.0.3",
+            "sha256": "sha256-t0v9avfGxsl6tFau19dqEDwdG9cP9YI4aTvh4RgFrmU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.0.2"
+        "version": "v0.0.3"
     }
 }
