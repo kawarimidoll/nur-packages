@@ -19,6 +19,15 @@
       ],
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": ["nvfetcher\\.toml$"],
+      "matchStrings": [
+        "\\[(?<depName>[^\\]]+)\\][\\s\\S]*?fetch\\.url\\s*=\\s*\"https://registry\\.npmjs\\.org/(?<packageName>[^/]+)/[^\"]+\"[\\s\\S]*?src\\.manual\\s*=\\s*\"(?<currentValue>[^\"]+)\""
+      ],
+      "datasourceTemplate": "npm",
+      "versioningTemplate": "npm"
     }
   ]
 }

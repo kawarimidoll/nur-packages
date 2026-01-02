@@ -41,6 +41,21 @@
         },
         "version": "v0.3.0"
     },
+    "jsmigemo": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "jsmigemo",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=",
+            "type": "url",
+            "url": "https://registry.npmjs.org/jsmigemo/-/jsmigemo-0.4.8.tgz"
+        },
+        "version": "0.4.8"
+    },
     "treesitter-ls": {
         "cargoLocks": null,
         "date": null,

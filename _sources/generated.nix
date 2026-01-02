@@ -23,6 +23,14 @@
       sha256 = "sha256-PhHC1FOcUBS1ZK97hjJ7zJOsJql2JkSJHkZNZqRRAVc=";
     };
   };
+  jsmigemo = {
+    pname = "jsmigemo";
+    version = "0.4.8";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/jsmigemo/-/jsmigemo-0.4.8.tgz";
+      sha256 = "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=";
+    };
+  };
   treesitter-ls = {
     pname = "treesitter-ls";
     version = "v0.0.2";
