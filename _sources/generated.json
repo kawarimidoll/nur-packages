@@ -56,6 +56,27 @@
         },
         "version": "0.4.8"
     },
+    "rustmigemo": {
+        "cargoLocks": null,
+        "date": "2026-01-02",
+        "extract": null,
+        "name": "rustmigemo",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "kawarimidoll",
+            "repo": "rustmigemo",
+            "rev": "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7",
+            "sha256": "sha256-ZKgLQYDf1l+RjxDy5YtCmIhyP6afXuPXQg+z61Ofx6M=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7"
+    },
     "treesitter-ls": {
         "cargoLocks": null,
         "date": null,

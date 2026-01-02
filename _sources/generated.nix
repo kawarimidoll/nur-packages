@@ -31,6 +31,18 @@
       sha256 = "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=";
     };
   };
+  rustmigemo = {
+    pname = "rustmigemo";
+    version = "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7";
+    src = fetchFromGitHub {
+      owner = "kawarimidoll";
+      repo = "rustmigemo";
+      rev = "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7";
+      fetchSubmodules = false;
+      sha256 = "sha256-ZKgLQYDf1l+RjxDy5YtCmIhyP6afXuPXQg+z61Ofx6M=";
+    };
+    date = "2026-01-02";
+  };
   treesitter-ls = {
     pname = "treesitter-ls";
     version = "v0.0.2";

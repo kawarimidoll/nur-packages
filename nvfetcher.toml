@@ -10,6 +10,13 @@ src.manual = "v0.3.0"
 fetch.url = "https://registry.npmjs.org/jsmigemo/-/jsmigemo-$ver.tgz"
 src.manual = "0.4.8"
 
+# Fork with aarch64 fix (manual update until merged upstream)
+[rustmigemo]
+fetch.github = "kawarimidoll/rustmigemo"
+fetch.branch = "fix-build-error-in-non-x86"
+src.git = "https://github.com/kawarimidoll/rustmigemo.git"
+src.branch = "fix-build-error-in-non-x86"
+
 [treesitter-ls]
 fetch.github = "atusy/treesitter-ls"
 src.manual = "v0.0.2"

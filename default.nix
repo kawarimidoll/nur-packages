@@ -21,5 +21,6 @@ in
   difit = pkgs.callPackage ./pkgs/difit { inherit sources; };
   ghost = pkgs.callPackage ./pkgs/ghost { inherit sources; };
   jsmigemo = pkgs.callPackage ./pkgs/jsmigemo { inherit sources; };
+  rustmigemo = pkgs.callPackage ./pkgs/rustmigemo { inherit sources; };
   treesitter-ls = pkgs.callPackage ./pkgs/treesitter-ls { inherit sources; };
 }
