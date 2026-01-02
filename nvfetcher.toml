@@ -1,3 +1,7 @@
+[difit]
+fetch.github = "yoshiko-pg/difit"
+src.manual = "v2.2.7"
+
 [ghost]
 fetch.github = "skanehira/ghost"
 src.manual = "v0.3.0"

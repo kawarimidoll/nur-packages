@@ -18,6 +18,7 @@ in
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
+  difit = pkgs.callPackage ./pkgs/difit { inherit sources; };
   ghost = pkgs.callPackage ./pkgs/ghost { inherit sources; };
   treesitter-ls = pkgs.callPackage ./pkgs/treesitter-ls { inherit sources; };
 }
