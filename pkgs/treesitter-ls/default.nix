@@ -1,6 +1,8 @@
 {
   lib,
   rustPlatform,
+  makeWrapper,
+  tree-sitter,
   sources,
 }:
 rustPlatform.buildRustPackage {
@@ -13,8 +15,15 @@ rustPlatform.buildRustPackage {
     lockFile = "${sources.treesitter-ls.src}/Cargo.lock";
   };
 
+  nativeBuildInputs = [ makeWrapper ];
+
   # Tests require git and external language files not available in sandbox
   doCheck = false;
+
+  postInstall = ''
+    wrapProgram $out/bin/treesitter-ls \
+      --prefix PATH : ${lib.makeBinPath [ tree-sitter ]}
+  '';
 
   meta = {
     description = "A fast and flexible LSP server leveraging Tree-sitter";
