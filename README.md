@@ -12,6 +12,7 @@
 | difit | v2.2.7 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
 | ghost | v0.3.0 | Simple background process manager for Unix systems |
 | jsmigemo | 0.4.8 | Migemo library for JavaScript - search Japanese text with Roman characters |
+| plamo-translate | 1.0.5 | A CLI for translation using the plamo-2-translate model with local execution |
 | rustmigemo-wrapped | 561a792bdbc5023d903198fed0cdbf8ad5fb6dc7 | Migemo CLI with bundled dictionary (wrapped version) |
 | treesitter-ls | v0.0.2 | A fast and flexible LSP server leveraging Tree-sitter |
 <!-- packages-table-end -->

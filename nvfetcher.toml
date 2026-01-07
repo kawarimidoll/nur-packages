@@ -20,3 +20,7 @@ src.branch = "fix-build-error-in-non-x86"
 [treesitter-ls]
 fetch.github = "atusy/treesitter-ls"
 src.manual = "v0.0.2"
+
+[plamo-translate]
+fetch.github = "pfnet/plamo-translate-cli"
+src.manual = "1.0.5"

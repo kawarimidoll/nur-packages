@@ -31,6 +31,17 @@
       sha256 = "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=";
     };
   };
+  plamo-translate = {
+    pname = "plamo-translate";
+    version = "1.0.5";
+    src = fetchFromGitHub {
+      owner = "pfnet";
+      repo = "plamo-translate-cli";
+      rev = "1.0.5";
+      fetchSubmodules = false;
+      sha256 = "sha256-w7xXYpRfMw99S7udpQ9yWEk0eqJUUme7qZ3ReZOfalA=";
+    };
+  };
   rustmigemo = {
     pname = "rustmigemo";
     version = "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7";
