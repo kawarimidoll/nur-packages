@@ -20,6 +20,7 @@ in
 
   difit = pkgs.callPackage ./pkgs/difit { inherit sources; };
   ghost = pkgs.callPackage ./pkgs/ghost { inherit sources; };
+  lolcrab = pkgs.callPackage ./pkgs/lolcrab { inherit sources; };
   jsmigemo = pkgs.callPackage ./pkgs/jsmigemo { inherit sources; };
   plamo-translate = pkgs.callPackage ./pkgs/plamo-translate { inherit sources; };
   rustmigemo-wrapped = pkgs.callPackage ./pkgs/rustmigemo { inherit sources; };

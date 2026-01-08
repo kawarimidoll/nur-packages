@@ -28,3 +28,7 @@ src.manual = "1.0.5"
 [stormy]
 fetch.github = "ashish0kumar/stormy"
 src.manual = "v0.3.3"
+
+[lolcrab]
+fetch.github = "mazznoer/lolcrab"
+src.manual = "v0.4.1"

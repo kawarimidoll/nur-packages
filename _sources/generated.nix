@@ -31,6 +31,17 @@
       sha256 = "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=";
     };
   };
+  lolcrab = {
+    pname = "lolcrab";
+    version = "v0.4.1";
+    src = fetchFromGitHub {
+      owner = "mazznoer";
+      repo = "lolcrab";
+      rev = "v0.4.1";
+      fetchSubmodules = false;
+      sha256 = "sha256-AfdCK8Xi523o45Ft9aLZPt4dZDdNLsn04QFCUVdgS5A=";
+    };
+  };
   plamo-translate = {
     pname = "plamo-translate";
     version = "1.0.5";
