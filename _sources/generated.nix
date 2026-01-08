@@ -54,6 +54,17 @@
     };
     date = "2026-01-02";
   };
+  stormy = {
+    pname = "stormy";
+    version = "v0.3.3";
+    src = fetchFromGitHub {
+      owner = "ashish0kumar";
+      repo = "stormy";
+      rev = "v0.3.3";
+      fetchSubmodules = false;
+      sha256 = "sha256-9QEjr4EFHmAsBx0z0/Zj7uyX12rZYekCXXGLBW1s91Q=";
+    };
+  };
   treesitter-ls = {
     pname = "treesitter-ls";
     version = "v0.0.2";
