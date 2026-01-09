@@ -5,47 +5,43 @@
 #   - _sources/generated.nix (source hash) - by nvfetcher
 #   - README.md packages table - by sync-readme
 #
-# Note: macOS (Apple Silicon) only - requires mlx-lm
-# Use Python 3.12 to avoid mcp build issues with Python 3.13
+# This package uses `uv tool install` at runtime to install plamo-translate-cli.
+# Reason: nixpkgs mlx is built without Metal (GPU) support because the `metal`
+# command-line tool is proprietary (part of Xcode) and cannot be used in Nix sandbox.
+# uv builds mlx with Metal support using the native Xcode installation.
+#
+# Note: macOS (Apple Silicon) only - requires Xcode for Metal support
 {
   lib,
-  python312,
+  writeShellApplication,
+  uv,
   sources,
 }:
-let
-  # Override Python package set to fix test/patch failures in sandbox
-  python = python312.override {
-    packageOverrides = self: super: {
-      # portend tests require network access
-      portend = super.portend.overridePythonAttrs (_: {
-        doCheck = false;
-      });
-      # mcp has postPatch that doesn't apply to current version
-      mcp = super.mcp.overridePythonAttrs (old: {
-        postPatch = "";
-        doCheck = false;
-      });
-    };
+writeShellApplication {
+  name = "plamo-translate";
+
+  runtimeInputs = [ uv ];
+
+  derivationArgs = {
+    inherit (sources.plamo-translate) version;
   };
-  pythonPackages = python.pkgs;
-in
-pythonPackages.buildPythonApplication {
-  inherit (sources.plamo-translate) pname version src;
 
-  pyproject = true;
+  text = ''
+    UV_TOOL_BIN="$HOME/.local/bin/plamo-translate"
 
-  build-system = [ pythonPackages.hatchling ];
+    # Install via uv if not already installed
+    if [[ ! -x "$UV_TOOL_BIN" ]]; then
+      echo "plamo-translate not found. Installing via uv..." >&2
+      uv tool install --force plamo-translate >&2
+      echo "Installation complete." >&2
+    fi
 
-  dependencies = with pythonPackages; [
-    mcp
-    numba
-    mlx-lm
-  ];
+    # Ensure TMPDIR is set (required by plamo-translate)
+    export TMPDIR="''${TMPDIR:-/tmp}"
 
-  # Tests require network access and model downloads
-  doCheck = false;
-
-  pythonImportsCheck = [ "plamo_translate" ];
+    # Execute the real binary
+    exec "$UV_TOOL_BIN" "$@"
+  '';
 
   meta = {
     description = "A CLI for translation using the plamo-2-translate model with local execution";

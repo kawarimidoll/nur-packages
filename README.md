@@ -17,6 +17,13 @@
 | treesitter-ls | v0.0.2 | A fast and flexible LSP server leveraging Tree-sitter |
 <!-- packages-table-end -->
 
+### Notes
+
+- **plamo-translate**: This package uses `uv tool install` at runtime instead of
+  a pure Nix build. This is because nixpkgs' mlx package lacks Metal (GPU)
+  support, which makes translation unusably slow. The wrapper installs the tool
+  via uv on first run, requiring network access and Xcode for Metal support.
+
 ## Usage
 
 Add this repository to your flake inputs:
