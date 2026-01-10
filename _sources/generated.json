@@ -119,6 +119,27 @@
         },
         "version": "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7"
     },
+    "rxpipes": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "rxpipes",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "inunix3",
+            "repo": "rxpipes",
+            "rev": "v1.3.0",
+            "sha256": "sha256-qUAWjI4G2erNDF55Fcd+/Yg+2X1hxg1GescmhZ3PvmY=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v1.3.0"
+    },
     "stormy": {
         "cargoLocks": null,
         "date": null,

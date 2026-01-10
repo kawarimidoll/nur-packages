@@ -32,3 +32,7 @@ src.manual = "v0.3.3"
 [lolcrab]
 fetch.github = "mazznoer/lolcrab"
 src.manual = "v0.4.1"
+
+[rxpipes]
+fetch.github = "inunix3/rxpipes"
+src.manual = "v1.3.0"

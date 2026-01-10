@@ -65,6 +65,17 @@
     };
     date = "2026-01-02";
   };
+  rxpipes = {
+    pname = "rxpipes";
+    version = "v1.3.0";
+    src = fetchFromGitHub {
+      owner = "inunix3";
+      repo = "rxpipes";
+      rev = "v1.3.0";
+      fetchSubmodules = false;
+      sha256 = "sha256-qUAWjI4G2erNDF55Fcd+/Yg+2X1hxg1GescmhZ3PvmY=";
+    };
+  };
   stormy = {
     pname = "stormy";
     version = "v0.3.3";
