@@ -24,7 +24,7 @@ in
   jsmigemo = pkgs.callPackage ./pkgs/jsmigemo { inherit sources; };
   rxpipes = pkgs.callPackage ./pkgs/rxpipes { inherit sources; };
   plamo-translate = pkgs.callPackage ./pkgs/plamo-translate { inherit sources; };
-  rustmigemo-wrapped = pkgs.callPackage ./pkgs/rustmigemo { inherit sources; };
+  rustmigemo = pkgs.callPackage ./pkgs/rustmigemo { inherit sources; };
   stormy = pkgs.callPackage ./pkgs/stormy { inherit sources; };
   treesitter-ls = pkgs.callPackage ./pkgs/treesitter-ls { inherit sources; };
 }
