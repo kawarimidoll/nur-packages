@@ -9,7 +9,7 @@
 <!-- packages-table-start -->
 | Package | Version | Description |
 |---------|---------|-------------|
-| difit | v2.2.7 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
+| difit | v3.0.0 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
 | ghost | v0.3.0 | Simple background process manager for Unix systems |
 | jsmigemo | 0.4.8 | Migemo library for JavaScript - search Japanese text with Roman characters |
 | lolcrab | v0.4.1 | Like lolcat but with noise and more colorful |
