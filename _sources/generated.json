@@ -161,11 +161,11 @@
         },
         "version": "v0.3.3"
     },
-    "treesitter-ls": {
+    "tree-sitter-ls": {
         "cargoLocks": null,
         "date": null,
         "extract": null,
-        "name": "treesitter-ls",
+        "name": "tree-sitter-ls",
         "passthru": null,
         "pinned": false,
         "src": {
@@ -174,12 +174,12 @@
             "leaveDotGit": false,
             "name": null,
             "owner": "atusy",
-            "repo": "treesitter-ls",
-            "rev": "v0.0.2",
-            "sha256": "sha256-9c7ttOX7SHvGbkSjPy0Yt9PB/8fOuu//ElO0fn+Snf0=",
+            "repo": "tree-sitter-ls",
+            "rev": "v0.0.8",
+            "sha256": "sha256-kt2IGJ79s53O7Io9TWnOsj+ICA6H2YH0+1vQwzdQUK0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.0.2"
+        "version": "v0.0.8"
     }
 }

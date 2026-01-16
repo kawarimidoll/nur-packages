@@ -6,13 +6,13 @@
   sources,
 }:
 rustPlatform.buildRustPackage {
-  pname = "treesitter-ls";
-  version = sources.treesitter-ls.version;
+  pname = "tree-sitter-ls";
+  version = sources.tree-sitter-ls.version;
 
-  src = sources.treesitter-ls.src;
+  src = sources.tree-sitter-ls.src;
 
   cargoLock = {
-    lockFile = "${sources.treesitter-ls.src}/Cargo.lock";
+    lockFile = "${sources.tree-sitter-ls.src}/Cargo.lock";
   };
 
   nativeBuildInputs = [ makeWrapper ];
@@ -21,14 +21,14 @@ rustPlatform.buildRustPackage {
   doCheck = false;
 
   postInstall = ''
-    wrapProgram $out/bin/treesitter-ls \
+    wrapProgram $out/bin/tree-sitter-ls \
       --prefix PATH : ${lib.makeBinPath [ tree-sitter ]}
   '';
 
   meta = {
     description = "A fast and flexible LSP server leveraging Tree-sitter";
-    homepage = "https://github.com/atusy/treesitter-ls";
+    homepage = "https://github.com/atusy/tree-sitter-ls";
     license = lib.licenses.mit;
-    mainProgram = "treesitter-ls";
+    mainProgram = "tree-sitter-ls";
   };
 }
