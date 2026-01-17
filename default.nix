@@ -26,5 +26,5 @@ in
   plamo-translate = pkgs.callPackage ./pkgs/plamo-translate { inherit sources; };
   rustmigemo = pkgs.callPackage ./pkgs/rustmigemo { inherit sources; };
   stormy = pkgs.callPackage ./pkgs/stormy { inherit sources; };
-  tree-sitter-ls = pkgs.callPackage ./pkgs/tree-sitter-ls { inherit sources; };
+  kakehashi = pkgs.callPackage ./pkgs/kakehashi { inherit sources; };
 }

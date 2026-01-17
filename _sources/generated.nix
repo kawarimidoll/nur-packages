@@ -31,6 +31,17 @@
       sha256 = "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=";
     };
   };
+  kakehashi = {
+    pname = "kakehashi";
+    version = "v0.0.10";
+    src = fetchFromGitHub {
+      owner = "atusy";
+      repo = "kakehashi";
+      rev = "v0.0.10";
+      fetchSubmodules = false;
+      sha256 = "sha256-+B1KJVsBCXwXycQPDJMKzozZQrpuwpy37jZIuo188lo=";
+    };
+  };
   lolcrab = {
     pname = "lolcrab";
     version = "v0.4.1";
@@ -85,17 +96,6 @@
       rev = "v0.3.3";
       fetchSubmodules = false;
       sha256 = "sha256-9QEjr4EFHmAsBx0z0/Zj7uyX12rZYekCXXGLBW1s91Q=";
-    };
-  };
-  tree-sitter-ls = {
-    pname = "tree-sitter-ls";
-    version = "v0.0.8";
-    src = fetchFromGitHub {
-      owner = "atusy";
-      repo = "tree-sitter-ls";
-      rev = "v0.0.8";
-      fetchSubmodules = false;
-      sha256 = "sha256-kt2IGJ79s53O7Io9TWnOsj+ICA6H2YH0+1vQwzdQUK0=";
     };
   };
 }

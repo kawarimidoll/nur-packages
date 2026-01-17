@@ -6,13 +6,13 @@
   sources,
 }:
 rustPlatform.buildRustPackage {
-  pname = "tree-sitter-ls";
-  version = sources.tree-sitter-ls.version;
+  pname = "kakehashi";
+  version = sources.kakehashi.version;
 
-  src = sources.tree-sitter-ls.src;
+  src = sources.kakehashi.src;
 
   cargoLock = {
-    lockFile = "${sources.tree-sitter-ls.src}/Cargo.lock";
+    lockFile = "${sources.kakehashi.src}/Cargo.lock";
   };
 
   nativeBuildInputs = [ makeWrapper ];
@@ -21,14 +21,14 @@ rustPlatform.buildRustPackage {
   doCheck = false;
 
   postInstall = ''
-    wrapProgram $out/bin/tree-sitter-ls \
+    wrapProgram $out/bin/kakehashi \
       --prefix PATH : ${lib.makeBinPath [ tree-sitter ]}
   '';
 
   meta = {
-    description = "A fast and flexible LSP server leveraging Tree-sitter";
-    homepage = "https://github.com/atusy/tree-sitter-ls";
+    description = "A Tree-sitter based language server bridging languages, editors, and tools";
+    homepage = "https://github.com/atusy/kakehashi";
     license = lib.licenses.mit;
-    mainProgram = "tree-sitter-ls";
+    mainProgram = "kakehashi";
   };
 }

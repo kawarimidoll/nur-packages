@@ -17,7 +17,7 @@
 | rustmigemo | 561a792bdbc5023d903198fed0cdbf8ad5fb6dc7 | Migemo library and CLI written in Rust |
 | rxpipes | v1.3.0 | 2D recreation of the ancient Pipes screensaver for terminals |
 | stormy | v0.3.3 | A minimal, customizable neofetch-like weather CLI |
-| tree-sitter-ls | v0.0.8 | A fast and flexible LSP server leveraging Tree-sitter |
+| kakehashi | v0.0.10 | A Tree-sitter based language server bridging languages, editors, and tools |
 <!-- packages-table-end -->
 
 ### Notes
@@ -45,6 +45,6 @@ Then use the packages:
 ```nix
 home.packages = [
   inputs.nur-packages.packages.${system}.ghost
-  inputs.nur-packages.packages.${system}.tree-sitter-ls
+  inputs.nur-packages.packages.${system}.kakehashi
 ];
 ```
