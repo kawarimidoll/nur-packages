@@ -1,6 +1,6 @@
 {
     "difit": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "difit",
@@ -21,7 +21,7 @@
         "version": "v2.2.7"
     },
     "ghost": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "ghost",
@@ -41,8 +41,29 @@
         },
         "version": "v0.3.0"
     },
+    "git-worktree-runner": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "git-worktree-runner",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "coderabbitai",
+            "repo": "git-worktree-runner",
+            "rev": "v2.1.0",
+            "sha256": "sha256-JVBngE93Kz/DTbptB70IPOU87RgyJWnYFkTkJno1C9Q=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "v2.1.0"
+    },
     "jsmigemo": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "jsmigemo",
@@ -57,7 +78,7 @@
         "version": "0.4.8"
     },
     "kakehashi": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "kakehashi",
@@ -78,7 +99,7 @@
         "version": "v0.0.10"
     },
     "lolcrab": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "lolcrab",
@@ -99,7 +120,7 @@
         "version": "v0.4.1"
     },
     "plamo-translate": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "plamo-translate",
@@ -120,7 +141,7 @@
         "version": "1.0.5"
     },
     "rustmigemo": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-01-02",
         "extract": null,
         "name": "rustmigemo",
@@ -141,7 +162,7 @@
         "version": "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7"
     },
     "rxpipes": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "rxpipes",
@@ -162,7 +183,7 @@
         "version": "v1.3.0"
     },
     "stormy": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": null,
         "extract": null,
         "name": "stormy",
