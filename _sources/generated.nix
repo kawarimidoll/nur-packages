@@ -30,13 +30,13 @@
   };
   git-worktree-runner = {
     pname = "git-worktree-runner";
-    version = "v2.1.0";
+    version = "v2.2.0";
     src = fetchFromGitHub {
       owner = "coderabbitai";
       repo = "git-worktree-runner";
-      rev = "v2.1.0";
+      rev = "v2.2.0";
       fetchSubmodules = false;
-      sha256 = "sha256-JVBngE93Kz/DTbptB70IPOU87RgyJWnYFkTkJno1C9Q=";
+      sha256 = "sha256-Ksq+TMfM5/E4ZspY0Cwo/F0FbZ/NprimtOKMYSp1p5A=";
     };
   };
   jsmigemo = {
