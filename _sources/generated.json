@@ -55,12 +55,12 @@
             "name": null,
             "owner": "coderabbitai",
             "repo": "git-worktree-runner",
-            "rev": "v2.1.0",
-            "sha256": "sha256-JVBngE93Kz/DTbptB70IPOU87RgyJWnYFkTkJno1C9Q=",
+            "rev": "v2.2.0",
+            "sha256": "sha256-Ksq+TMfM5/E4ZspY0Cwo/F0FbZ/NprimtOKMYSp1p5A=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v2.1.0"
+        "version": "v2.2.0"
     },
     "jsmigemo": {
         "cargoLock": null,

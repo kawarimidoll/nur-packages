@@ -39,4 +39,4 @@ src.manual = "v1.3.0"
 
 [git-worktree-runner]
 fetch.github = "coderabbitai/git-worktree-runner"
-src.manual = "v2.1.0"
+src.manual = "v2.2.0"
