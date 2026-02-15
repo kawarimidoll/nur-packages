@@ -133,12 +133,12 @@
             "name": null,
             "owner": "oguna",
             "repo": "rustmigemo",
-            "rev": "v0.1.5-rev6",
-            "sha256": "sha256-NnErS0EFf3YutEbm+nmcXldCAuxC7eGo2+l8d6bGoEs=",
+            "rev": "v0.1.6",
+            "sha256": "sha256-9JVDs8DB0JPXp5psnvWEFlO8yc155kdduQt46FXc5/Q=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v0.1.5-rev6"
+        "version": "v0.1.6"
     },
     "rxpipes": {
         "cargoLock": null,
