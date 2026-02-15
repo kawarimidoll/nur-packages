@@ -71,13 +71,13 @@
   };
   rustmigemo = {
     pname = "rustmigemo";
-    version = "v0.1.5-rev6";
+    version = "v0.1.6";
     src = fetchFromGitHub {
       owner = "oguna";
       repo = "rustmigemo";
-      rev = "v0.1.5-rev6";
+      rev = "v0.1.6";
       fetchSubmodules = false;
-      sha256 = "sha256-NnErS0EFf3YutEbm+nmcXldCAuxC7eGo2+l8d6bGoEs=";
+      sha256 = "sha256-9JVDs8DB0JPXp5psnvWEFlO8yc155kdduQt46FXc5/Q=";
     };
   };
   rxpipes = {
