@@ -11,13 +11,13 @@
 |---------|---------|-------------|
 | difit | v2.2.7 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
 | ghost | v0.3.0 | Simple background process manager for Unix systems |
-| jsmigemo | 0.4.8 | Migemo library for JavaScript - search Japanese text with Roman characters |
+| jsmigemo | 0.5.0 | Migemo library for JavaScript - search Japanese text with Roman characters |
+| kakehashi | v0.0.10 | A Tree-sitter based language server bridging languages, editors, and tools |
 | lolcrab | v0.4.1 | Like lolcat but with noise and more colorful |
 | plamo-translate | 1.0.5 | A CLI for translation using the plamo-2-translate model with local execution |
-| rustmigemo | 561a792bdbc5023d903198fed0cdbf8ad5fb6dc7 | Migemo library and CLI written in Rust |
+| rustmigemo | v0.1.5-rev6 | Migemo library and CLI written in Rust |
 | rxpipes | v1.3.0 | 2D recreation of the ancient Pipes screensaver for terminals |
 | stormy | v0.3.3 | A minimal, customizable neofetch-like weather CLI |
-| kakehashi | v0.0.10 | A Tree-sitter based language server bridging languages, editors, and tools |
 <!-- packages-table-end -->
 
 ### Notes
