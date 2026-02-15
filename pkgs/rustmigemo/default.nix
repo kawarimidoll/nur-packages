@@ -1,9 +1,3 @@
-# Version Update Flow:
-#
-# Manual update required (fork without releases):
-#   - nvfetcher.toml uses src.git with branch tracking
-#   - Run `nix run .#nvfetcher` to update when fork is updated
-#   - Consider switching to upstream when fix is merged
 {
   lib,
   rustPlatform,

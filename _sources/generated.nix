@@ -28,7 +28,7 @@
       sha256 = "sha256-PhHC1FOcUBS1ZK97hjJ7zJOsJql2JkSJHkZNZqRRAVc=";
     };
   };
-jsmigemo = {
+  jsmigemo = {
     pname = "jsmigemo";
     version = "0.4.8";
     src = fetchurl {
@@ -71,15 +71,14 @@ jsmigemo = {
   };
   rustmigemo = {
     pname = "rustmigemo";
-    version = "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7";
+    version = "v0.1.5-rev6";
     src = fetchFromGitHub {
-      owner = "kawarimidoll";
+      owner = "oguna";
       repo = "rustmigemo";
-      rev = "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7";
+      rev = "v0.1.5-rev6";
       fetchSubmodules = false;
-      sha256 = "sha256-ZKgLQYDf1l+RjxDy5YtCmIhyP6afXuPXQg+z61Ofx6M=";
+      sha256 = "sha256-NnErS0EFf3YutEbm+nmcXldCAuxC7eGo2+l8d6bGoEs=";
     };
-    date = "2026-01-02";
   };
   rxpipes = {
     pname = "rxpipes";

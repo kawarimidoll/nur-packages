@@ -41,7 +41,7 @@
         },
         "version": "v0.3.0"
     },
-"jsmigemo": {
+    "jsmigemo": {
         "cargoLock": null,
         "date": null,
         "extract": null,
@@ -121,7 +121,7 @@
     },
     "rustmigemo": {
         "cargoLock": null,
-        "date": "2026-01-02",
+        "date": null,
         "extract": null,
         "name": "rustmigemo",
         "passthru": null,
@@ -131,14 +131,14 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "kawarimidoll",
+            "owner": "oguna",
             "repo": "rustmigemo",
-            "rev": "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7",
-            "sha256": "sha256-ZKgLQYDf1l+RjxDy5YtCmIhyP6afXuPXQg+z61Ofx6M=",
+            "rev": "v0.1.5-rev6",
+            "sha256": "sha256-NnErS0EFf3YutEbm+nmcXldCAuxC7eGo2+l8d6bGoEs=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "561a792bdbc5023d903198fed0cdbf8ad5fb6dc7"
+        "version": "v0.1.5-rev6"
     },
     "rxpipes": {
         "cargoLock": null,
