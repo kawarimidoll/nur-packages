@@ -38,13 +38,13 @@
   };
   kakehashi = {
     pname = "kakehashi";
-    version = "v0.0.10";
+    version = "v0.0.14";
     src = fetchFromGitHub {
       owner = "atusy";
       repo = "kakehashi";
-      rev = "v0.0.10";
+      rev = "v0.0.14";
       fetchSubmodules = false;
-      sha256 = "sha256-+B1KJVsBCXwXycQPDJMKzozZQrpuwpy37jZIuo188lo=";
+      sha256 = "sha256-3rYhInb/Po33pphc9SoQhrwOR/UZZSnLab01tLUOiXs=";
     };
   };
   lolcrab = {
