@@ -16,7 +16,7 @@ src.manual = "v0.1.5-rev6"
 
 [kakehashi]
 fetch.github = "atusy/kakehashi"
-src.manual = "v0.0.10"
+src.manual = "v0.0.14"
 
 [plamo-translate]
 fetch.github = "pfnet/plamo-translate-cli"
