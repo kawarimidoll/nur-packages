@@ -27,5 +27,4 @@ in
   rustmigemo = pkgs.callPackage ./pkgs/rustmigemo { inherit sources; };
   stormy = pkgs.callPackage ./pkgs/stormy { inherit sources; };
   kakehashi = pkgs.callPackage ./pkgs/kakehashi { inherit sources; };
-  git-worktree-runner = pkgs.callPackage ./pkgs/git-worktree-runner { inherit sources; };
 }

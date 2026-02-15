@@ -41,28 +41,7 @@
         },
         "version": "v0.3.0"
     },
-    "git-worktree-runner": {
-        "cargoLock": null,
-        "date": null,
-        "extract": null,
-        "name": "git-worktree-runner",
-        "passthru": null,
-        "pinned": false,
-        "src": {
-            "deepClone": false,
-            "fetchSubmodules": false,
-            "leaveDotGit": false,
-            "name": null,
-            "owner": "coderabbitai",
-            "repo": "git-worktree-runner",
-            "rev": "v2.1.0",
-            "sha256": "sha256-JVBngE93Kz/DTbptB70IPOU87RgyJWnYFkTkJno1C9Q=",
-            "sparseCheckout": [],
-            "type": "github"
-        },
-        "version": "v2.1.0"
-    },
-    "jsmigemo": {
+"jsmigemo": {
         "cargoLock": null,
         "date": null,
         "extract": null,

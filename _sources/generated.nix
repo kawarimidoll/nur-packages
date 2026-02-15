@@ -28,18 +28,7 @@
       sha256 = "sha256-PhHC1FOcUBS1ZK97hjJ7zJOsJql2JkSJHkZNZqRRAVc=";
     };
   };
-  git-worktree-runner = {
-    pname = "git-worktree-runner";
-    version = "v2.1.0";
-    src = fetchFromGitHub {
-      owner = "coderabbitai";
-      repo = "git-worktree-runner";
-      rev = "v2.1.0";
-      fetchSubmodules = false;
-      sha256 = "sha256-JVBngE93Kz/DTbptB70IPOU87RgyJWnYFkTkJno1C9Q=";
-    };
-  };
-  jsmigemo = {
+jsmigemo = {
     pname = "jsmigemo";
     version = "0.4.8";
     src = fetchurl {
