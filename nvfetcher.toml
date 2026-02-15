@@ -8,7 +8,7 @@ src.manual = "v0.3.0"
 
 [jsmigemo]
 fetch.url = "https://registry.npmjs.org/jsmigemo/-/jsmigemo-$ver.tgz"
-src.manual = "0.4.8"
+src.manual = "0.5.0"
 
 [rustmigemo]
 fetch.github = "oguna/rustmigemo"

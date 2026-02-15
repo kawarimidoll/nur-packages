@@ -30,10 +30,10 @@
   };
   jsmigemo = {
     pname = "jsmigemo";
-    version = "0.4.8";
+    version = "0.5.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/jsmigemo/-/jsmigemo-0.4.8.tgz";
-      sha256 = "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=";
+      url = "https://registry.npmjs.org/jsmigemo/-/jsmigemo-0.5.0.tgz";
+      sha256 = "sha256-L9V7t6Ur0F+64Cq9hip8whLNHqQczXD9JGC8xCCzZZs=";
     };
   };
   kakehashi = {
