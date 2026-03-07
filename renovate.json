@@ -15,7 +15,7 @@
       "customType": "regex",
       "fileMatch": ["nvfetcher\\.toml$"],
       "matchStrings": [
-        "\\[(?<depName>[^\\]]+)\\][\\s\\S]*?fetch\\.github\\s*=\\s*\"(?<packageName>[^\"]+)\"[\\s\\S]*?src\\.manual\\s*=\\s*\"(?<currentValue>[^\"]+)\""
+        "\\[(?<depName>[^\\]]+)\\]\\nfetch\\.github\\s*=\\s*\"(?<packageName>[^\"]+)\"\\nsrc\\.manual\\s*=\\s*\"(?<currentValue>[^\"]+)\""
       ],
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
@@ -24,7 +24,7 @@
       "customType": "regex",
       "fileMatch": ["nvfetcher\\.toml$"],
       "matchStrings": [
-        "\\[(?<depName>[^\\]]+)\\][\\s\\S]*?fetch\\.url\\s*=\\s*\"https://registry\\.npmjs\\.org/(?<packageName>[^/]+)/[^\"]+\"[\\s\\S]*?src\\.manual\\s*=\\s*\"(?<currentValue>[^\"]+)\""
+        "\\[(?<depName>[^\\]]+)\\]\\nfetch\\.url\\s*=\\s*\"https://registry\\.npmjs\\.org/(?<packageName>[^/]+)/[^\"]+\"\\nsrc\\.manual\\s*=\\s*\"(?<currentValue>[^\"]+)\""
       ],
       "datasourceTemplate": "npm",
       "versioningTemplate": "npm"
