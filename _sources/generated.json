@@ -50,11 +50,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-VszdYZI+HXB8fOGLN2GzVhjFyIvJYWiL/KEASpZVxuI=",
+            "sha256": "sha256-w/lLJrvvNikbxNtF+tIjysNHu/WYdS6cGxCrf3I/ndI=",
             "type": "url",
-            "url": "https://registry.npmjs.org/jsmigemo/-/jsmigemo-0.4.8.tgz"
+            "url": "https://registry.npmjs.org/jsmigemo/-/jsmigemo-0.5.2.tgz"
         },
-        "version": "0.4.8"
+        "version": "0.5.2"
     },
     "kakehashi": {
         "cargoLock": null,
