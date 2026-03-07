@@ -45,6 +45,6 @@ Then use the packages:
 ```nix
 home.packages = [
   inputs.nur-packages.packages.${system}.ghost
-  inputs.nur-packages.packages.${system}.kakehashi
+  inputs.nur-packages.packages.${system}.lolcrab
 ];
 ```

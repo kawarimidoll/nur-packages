@@ -36,17 +36,6 @@
       sha256 = "sha256-w/lLJrvvNikbxNtF+tIjysNHu/WYdS6cGxCrf3I/ndI=";
     };
   };
-  kakehashi = {
-    pname = "kakehashi";
-    version = "v0.0.10";
-    src = fetchFromGitHub {
-      owner = "atusy";
-      repo = "kakehashi";
-      rev = "v0.0.10";
-      fetchSubmodules = false;
-      sha256 = "sha256-+B1KJVsBCXwXycQPDJMKzozZQrpuwpy37jZIuo188lo=";
-    };
-  };
   lolcrab = {
     pname = "lolcrab";
     version = "v0.4.1";
