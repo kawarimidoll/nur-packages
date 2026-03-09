@@ -12,7 +12,7 @@ src.manual = "0.5.2"
 
 [rustmigemo]
 fetch.github = "oguna/rustmigemo"
-src.manual = "v0.1.5-rev6"
+src.manual = "v0.1.6"
 
 [plamo-translate]
 fetch.github = "pfnet/plamo-translate-cli"
