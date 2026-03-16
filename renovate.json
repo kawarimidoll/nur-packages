@@ -31,6 +31,16 @@
       ],
       "datasourceTemplate": "npm",
       "versioningTemplate": "npm"
+    },
+    {
+      "customType": "regex",
+      "fileMatch": ["pkgs/lightpanda/sources\\.json$"],
+      "matchStrings": [
+        "\"version\":\\s*\"(?<currentValue>[^\"]+)\""
+      ],
+      "depNameTemplate": "lightpanda-io/browser",
+      "datasourceTemplate": "github-releases",
+      "versioningTemplate": "semver"
     }
   ]
 }

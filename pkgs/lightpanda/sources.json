@@ -1,0 +1,21 @@
+{
+  "version": "v0.2.6",
+  "platforms": {
+    "x86_64-linux": {
+      "binary": "lightpanda-x86_64-linux",
+      "hash": "sha256-8pRCZG0cYqQXUZWwoUm542ji80h9Okk/lroHAr6JdMw="
+    },
+    "aarch64-linux": {
+      "binary": "lightpanda-aarch64-linux",
+      "hash": "sha256-m3f/PAMYHlA4qkTOp4B20Dj1MWJMWUm1On79NnPFwM4="
+    },
+    "x86_64-darwin": {
+      "binary": "lightpanda-x86_64-macos",
+      "hash": "sha256-Nt7v+b3xJwnJDIJpdCLk/IPz33wtnkf4SyZChEbVvDY="
+    },
+    "aarch64-darwin": {
+      "binary": "lightpanda-aarch64-macos",
+      "hash": "sha256-6fdqFy/XAQi1sj8S0qC0LjfDbfaszOXoD8OVhc4/lcE="
+    }
+  }
+}

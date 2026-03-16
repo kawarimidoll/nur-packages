@@ -1,0 +1,54 @@
+name: Update Lightpanda Hashes
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'pkgs/lightpanda/sources.json'
+
+permissions: {}
+
+jobs:
+  update-hashes:
+    name: Update lightpanda binary hashes
+    if: github.event.pull_request.user.id == 29139614 # renovate[bot]
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.head_ref }}
+      cancel-in-progress: true
+    permissions:
+      contents: write # push updated hashes to PR branch
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          ref: ${{ github.head_ref }}
+          persist-credentials: true
+
+      - uses: cachix/install-nix-action@1ca7d21a94afc7c957383a2d217460d980de4934 # v31
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update hashes
+        run: |
+          SOURCES_FILE="pkgs/lightpanda/sources.json"
+          VERSION=$(jq -r '.version' "$SOURCES_FILE")
+          BASE_URL="https://github.com/lightpanda-io/browser/releases/download/${VERSION}"
+
+          for system in $(jq -r '.platforms | keys[]' "$SOURCES_FILE"); do
+            binary=$(jq -r --arg s "$system" '.platforms[$s].binary' "$SOURCES_FILE")
+            url="${BASE_URL}/${binary}"
+            hash=$(nix-prefetch-url --type sha256 "$url" 2>/dev/null)
+            sri=$(nix hash convert --to sri --hash-algo sha256 "$hash")
+            contents=$(jq --arg s "$system" --arg h "$sri" '.platforms[$s].hash = $h' "$SOURCES_FILE")
+            echo "$contents" > "$SOURCES_FILE"
+          done
+
+          jq . "$SOURCES_FILE" > tmp.json && mv tmp.json "$SOURCES_FILE"
+
+      - name: Commit updated hashes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pkgs/lightpanda/sources.json
+          git diff --staged --quiet || git commit -m "chore(deps): update lightpanda binary hashes"
+          git push
