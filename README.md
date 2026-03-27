@@ -9,10 +9,10 @@
 <!-- packages-table-start -->
 | Package | Version | Description |
 |---------|---------|-------------|
-| difit | v4.0.0 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
+| difit | v4.0.1 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
 | ghost | v0.3.0 | Simple background process manager for Unix systems |
 | jsmigemo | 0.5.2 | Migemo library for JavaScript - search Japanese text with Roman characters |
-| lightpanda | v0.2.6 | Lightweight browser engine for AI agents and web automation |
+| lightpanda | 0.2.7 | Lightweight browser engine for AI agents and web automation |
 | lolcrab | v0.4.1 | Like lolcat but with noise and more colorful |
 | plamo-translate | 1.0.5 | A CLI for translation using the plamo-2-translate model with local execution |
 | rustmigemo | v0.1.6 | Migemo library and CLI written in Rust |
