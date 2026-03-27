@@ -8,13 +8,13 @@
 {
   difit = {
     pname = "difit";
-    version = "v2.2.7";
+    version = "v4.0.0";
     src = fetchFromGitHub {
       owner = "yoshiko-pg";
       repo = "difit";
-      rev = "v2.2.7";
+      rev = "v4.0.0";
       fetchSubmodules = false;
-      sha256 = "sha256-1YMGvzjHW0XKtMK0uRradFdRAFlCK+EeR768GYeTunY=";
+      sha256 = "sha256-KwUBdt4dDfjOS6jTYCK6AVG/0+yffSgAdVqNUTcZqos=";
     };
   };
   ghost = {
