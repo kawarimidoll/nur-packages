@@ -1,5 +1,5 @@
 {
-  "version": "0.2.8",
+  "version": "0.2.9",
   "platforms": {
     "x86_64-linux": {
       "binary": "lightpanda-x86_64-linux",
