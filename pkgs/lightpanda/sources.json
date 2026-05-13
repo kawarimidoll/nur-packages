@@ -3,19 +3,19 @@
   "platforms": {
     "x86_64-linux": {
       "binary": "lightpanda-x86_64-linux",
-      "hash": "sha256-VL65btP2Ob7MT9JjproKabYOXn4D72/lDZxjR6PqOV0="
+      "hash": "sha256-JW+Ny0VnbFPCai5aQKmmDYRP6zh9f0PCCSWYL6K+cjo="
     },
     "aarch64-linux": {
       "binary": "lightpanda-aarch64-linux",
-      "hash": "sha256-jKHb2a+6w2hGbpWmCHyyiFyoTN08YphxebiycL4SAic="
+      "hash": "sha256-ZrBs4swGdDckWTSgeC1XRpHe5j7hws3H6Umy786XZMA="
     },
     "x86_64-darwin": {
       "binary": "lightpanda-x86_64-macos",
-      "hash": "sha256-NvvEXjMpX037PMvk8bjthXdKbwOZKSSF3NfkDdykqZ4="
+      "hash": "sha256-gmetIf7/EUYZpg/Xsc0jRA8dXkQ6Caq9rbJ8UXmw80c="
     },
     "aarch64-darwin": {
       "binary": "lightpanda-aarch64-macos",
-      "hash": "sha256-9kVZsYmXbx6UAabFZ8RHnPHZ+DoZRLawSYQxd83LJbU="
+      "hash": "sha256-TKOJehVHybO4Q6CpIcK00ESvs61JFAkahFrGCP4csEc="
     }
   }
 }
