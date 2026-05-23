@@ -4,7 +4,7 @@ src.manual = "v5.0.1"
 
 [ghost]
 fetch.github = "skanehira/ghost"
-src.manual = "v0.3.0"
+src.manual = "v0.3.1"
 
 [jsmigemo]
 fetch.url = "https://registry.npmjs.org/jsmigemo/-/jsmigemo-$ver.tgz"
