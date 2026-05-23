@@ -10,7 +10,7 @@
 | Package | Version | Description |
 |---------|---------|-------------|
 | difit | v5.0.1 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
-| ghost | v0.3.0 | Simple background process manager for Unix systems |
+| ghost | v0.3.1 | Simple background process manager for Unix systems |
 | jsmigemo | 0.5.2 | Migemo library for JavaScript - search Japanese text with Roman characters |
 | lightpanda | 0.3.0 | Lightweight browser engine for AI agents and web automation |
 | lolcrab | v0.4.1 | Like lolcat but with noise and more colorful |
