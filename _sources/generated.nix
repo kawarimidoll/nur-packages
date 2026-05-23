@@ -19,13 +19,13 @@
   };
   ghost = {
     pname = "ghost";
-    version = "v0.3.0";
+    version = "v0.3.1";
     src = fetchFromGitHub {
       owner = "skanehira";
       repo = "ghost";
-      rev = "v0.3.0";
+      rev = "v0.3.1";
       fetchSubmodules = false;
-      sha256 = "sha256-PhHC1FOcUBS1ZK97hjJ7zJOsJql2JkSJHkZNZqRRAVc=";
+      sha256 = "sha256-++C2Lhjlde9DAVj36q7ak8cSQTJaN7+uojzM4xozsf8=";
     };
   };
   jsmigemo = {
