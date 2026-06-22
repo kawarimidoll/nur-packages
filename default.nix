@@ -29,4 +29,5 @@ in
 
   lightpanda = pkgs.callPackage ./pkgs/lightpanda { inherit (pkgs.stdenv.hostPlatform) system; };
   fff-mcp = pkgs.callPackage ./pkgs/fff-mcp { inherit (pkgs.stdenv.hostPlatform) system; };
+  zmx = pkgs.callPackage ./pkgs/zmx { inherit (pkgs.stdenv.hostPlatform) system; };
 }
