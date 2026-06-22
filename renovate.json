@@ -34,11 +34,10 @@
     },
     {
       "customType": "regex",
-      "fileMatch": ["pkgs/lightpanda/sources\\.json$"],
+      "fileMatch": ["pkgs/.*/sources\\.json$"],
       "matchStrings": [
-        "\"version\":\\s*\"(?<currentValue>[^\"]+)\""
+        "\"repo\":\\s*\"(?<depName>[^\"]+)\"[\\s\\S]*?\"tag\":\\s*\"(?<currentValue>[^\"]+)\""
       ],
-      "depNameTemplate": "lightpanda-io/browser",
       "datasourceTemplate": "github-releases",
       "versioningTemplate": "semver"
     }

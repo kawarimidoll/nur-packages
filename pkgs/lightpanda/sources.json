@@ -1,5 +1,6 @@
 {
-  "version": "0.3.2",
+  "repo": "lightpanda-io/browser",
+  "tag": "0.3.2",
   "platforms": {
     "x86_64-linux": {
       "binary": "lightpanda-x86_64-linux",
