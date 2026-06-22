@@ -28,4 +28,5 @@ in
   stormy = pkgs.callPackage ./pkgs/stormy { inherit sources; };
 
   lightpanda = pkgs.callPackage ./pkgs/lightpanda { inherit (pkgs.stdenv.hostPlatform) system; };
+  fff-mcp = pkgs.callPackage ./pkgs/fff-mcp { inherit (pkgs.stdenv.hostPlatform) system; };
 }

@@ -1,0 +1,14 @@
+{
+  "repo": "dmtrKovalenko/fff",
+  "tag": "v0.9.5",
+  "platforms": {
+    "aarch64-darwin": {
+      "binary": "fff-mcp-aarch64-apple-darwin",
+      "hash": "sha256-Xkb/1hOnHLRg+2dKB1YHBljoBrEPYVH4/9AG3d3Y3M8="
+    },
+    "x86_64-darwin": {
+      "binary": "fff-mcp-x86_64-apple-darwin",
+      "hash": "sha256-ZrcXqd0KBYlyBC9qILv1EnTfG4zbS2xVhsDYp7D8DTo="
+    }
+  }
+}
