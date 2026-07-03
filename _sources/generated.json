@@ -13,12 +13,12 @@
             "name": null,
             "owner": "yoshiko-pg",
             "repo": "difit",
-            "rev": "v5.0.4",
-            "sha256": "sha256-klHLeoLqgQJrYtm4ytS2jCOAoPkhqog2k6p9vSfdHBM=",
+            "rev": "v5.0.5",
+            "sha256": "sha256-SLBpi4YwjBu0PCW43jdCWsDRkOUN6jn1aHtnKHbo2+I=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "v5.0.4"
+        "version": "v5.0.5"
     },
     "ghost": {
         "cargoLock": null,
