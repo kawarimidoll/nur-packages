@@ -9,7 +9,7 @@
 <!-- packages-table-start -->
 | Package | Version | Description |
 |---------|---------|-------------|
-| difit | v5.0.5 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
+| difit | v5.0.6 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
 | fff-mcp | 0.9.6 | The fastest and most accurate file search toolkit for AI agents (MCP server) |
 | ghost | v0.3.1 | Simple background process manager for Unix systems |
 | jsmigemo | 0.5.2 | Migemo library for JavaScript - search Japanese text with Roman characters |
