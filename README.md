@@ -10,7 +10,7 @@
 | Package | Version | Description |
 |---------|---------|-------------|
 | difit | v5.0.8 | A lightweight CLI tool to display Git diffs in GitHub-style web viewer |
-| fff-mcp | 0.10.0 | The fastest and most accurate file search toolkit for AI agents (MCP server) |
+| fff-mcp | 0.10.1 | The fastest and most accurate file search toolkit for AI agents (MCP server) |
 | ghost | v0.3.1 | Simple background process manager for Unix systems |
 | jsmigemo | 0.5.2 | Migemo library for JavaScript - search Japanese text with Roman characters |
 | lightpanda | 0.3.5 | Lightweight browser engine for AI agents and web automation |
