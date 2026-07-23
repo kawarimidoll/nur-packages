@@ -4,11 +4,11 @@
   "platforms": {
     "aarch64-darwin": {
       "binary": "zmx-${version}-macos-aarch64.tar.gz",
-      "hash": "sha256-PwcMbjjLOkjdwTHb6Vb9TE6/TKbPzFfDrLtAmU8Wl4c="
+      "hash": "sha256-pj1vPt1tSzgkD4+BUT5g41qJjKUgIRES17xn9hDx8+s="
     },
     "x86_64-darwin": {
       "binary": "zmx-${version}-macos-x86_64.tar.gz",
-      "hash": "sha256-Hmo+VkC4UzL6yViqSx/HY5C8H2mLa0l1RZ2J87z7GGU="
+      "hash": "sha256-ZsV+eWPISIEmb586z9s2lFw0DAFqVwYZSFF/OzA8p9M="
     }
   }
 }
