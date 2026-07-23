@@ -19,7 +19,7 @@
 | rustmigemo | v0.1.6 | Migemo library and CLI written in Rust |
 | rxpipes | v1.3.0 | 2D recreation of the ancient Pipes screensaver for terminals |
 | stormy | v0.3.3 | A minimal, customizable neofetch-like weather CLI |
-| zmx | 0.6.0 | Session attach/detach for the terminal |
+| zmx | 0.7.0 | Session attach/detach for the terminal |
 <!-- packages-table-end -->
 
 ### Notes
