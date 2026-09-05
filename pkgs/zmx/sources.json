@@ -1,14 +1,14 @@
 {
   "repo": "neurosnap/zmx",
-  "tag": "v0.8.0",
+  "tag": "v0.8.1",
   "platforms": {
     "aarch64-darwin": {
       "binary": "zmx-${version}-macos-aarch64.tar.gz",
-      "hash": "sha256-Fu/bsSabK6LokQeXxd7wHiDjAWGhGDHY7GSbfSOc8y8="
+      "hash": "sha256-HYaxyfukf6cHpvDpdrIFELB8HCbQ7QELlBSyosXmvu8="
     },
     "x86_64-darwin": {
       "binary": "zmx-${version}-macos-x86_64.tar.gz",
-      "hash": "sha256-ew8nRyytWd4QWcDG40aQVxT0n9tAs18x7EmNWLvUrYo="
+      "hash": "sha256-MghXitkdimIHd3LcihNpqSAz2ehBabrGc++FQrb/lwc="
     }
   }
 }
