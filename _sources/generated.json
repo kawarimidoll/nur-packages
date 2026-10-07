@@ -91,12 +91,12 @@
             "name": null,
             "owner": "pfnet",
             "repo": "plamo-translate-cli",
-            "rev": "1.0.5",
-            "sha256": "sha256-w7xXYpRfMw99S7udpQ9yWEk0eqJUUme7qZ3ReZOfalA=",
+            "rev": "1.1.0",
+            "sha256": "sha256-QD5SCyttRFMyumNBEteer+iKt53RD/GA/01Q53TYXcE=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1.0.5"
+        "version": "1.1.0"
     },
     "rustmigemo": {
         "cargoLock": null,
