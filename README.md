@@ -15,7 +15,7 @@
 | jsmigemo | 0.5.2 | Migemo library for JavaScript - search Japanese text with Roman characters |
 | lightpanda | 1.0.0 | Lightweight browser engine for AI agents and web automation |
 | lolcrab | v0.4.1 | Like lolcat but with noise and more colorful |
-| plamo-translate | 1.0.5 | A CLI for translation using the plamo-2-translate model with local execution |
+| plamo-translate | 1.1.0 | A CLI for translation using the plamo-2-translate model with local execution |
 | rustmigemo | v0.1.6 | Migemo library and CLI written in Rust |
 | rxpipes | v1.3.0 | 2D recreation of the ancient Pipes screensaver for terminals |
 | stormy | v0.3.3 | A minimal, customizable neofetch-like weather CLI |
