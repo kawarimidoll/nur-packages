@@ -1,0 +1,14 @@
+{
+  "repo": "Ryooooooga/zabrze",
+  "tag": "v0.7.3",
+  "platforms": {
+    "aarch64-darwin": {
+      "binary": "zabrze-v${version}-aarch64-apple-darwin.tar.gz",
+      "hash": "sha256-tX7kabOmOev5D4piGOTLeIfGqI1bJvH8W9cXV+oyDkw="
+    },
+    "x86_64-darwin": {
+      "binary": "zabrze-v${version}-x86_64-apple-darwin.tar.gz",
+      "hash": "sha256-LCeJB+upjwIuMvOtL4ej98SGd9gp8P1sDw95AReNIC4="
+    }
+  }
+}
