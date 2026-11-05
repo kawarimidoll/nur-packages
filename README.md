@@ -14,7 +14,7 @@
 | ghost | v0.3.1 | Simple background process manager for Unix systems |
 | jsmigemo | 0.5.2 | Migemo library for JavaScript - search Japanese text with Roman characters |
 | kakehashi | 1.0.0 | Language server that bridges the gap between languages, editors, and tooling |
-| lightpanda | 1.0.2 | Lightweight browser engine for AI agents and web automation |
+| lightpanda | 1.0.3 | Lightweight browser engine for AI agents and web automation |
 | lolcrab | v0.4.1 | Like lolcat but with noise and more colorful |
 | plamo-translate | 1.1.1 | A CLI for translation using the plamo-2-translate model with local execution |
 | rustmigemo | v0.1.6 | Migemo library and CLI written in Rust |
