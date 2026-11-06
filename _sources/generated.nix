@@ -49,13 +49,13 @@
   };
   plamo-translate = {
     pname = "plamo-translate";
-    version = "1.1.1";
+    version = "1.2.0";
     src = fetchFromGitHub {
       owner = "pfnet";
       repo = "plamo-translate-cli";
-      rev = "1.1.1";
+      rev = "1.2.0";
       fetchSubmodules = false;
-      sha256 = "sha256-e8w/ynbjYy8qsQF7oZtwF8Vr4fuet83O2WRn7xaJM6k=";
+      sha256 = "sha256-d8DXxRqb6YiHC4+BGKOmNZ7DgceTan6tpaEWJlhN9a8=";
     };
   };
   rustmigemo = {
