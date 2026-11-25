@@ -1,6 +1,6 @@
 {
   "repo": "neurosnap/zmx",
-  "tag": "v1.0.1",
+  "tag": "v1.0.2",
   "platforms": {
     "aarch64-darwin": {
       "binary": "zmx-${version}-macos-aarch64.tar.gz",
